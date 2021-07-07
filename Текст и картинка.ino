@@ -1,7 +1,7 @@
 #include "U8glib.h"
 #include "rus4x6.h"
 #define backlight_pin 11
-U8GLIB_PCD8544 u8g(8, 9, 12, 10, 11);  // CLK=8, DIN=4, CE=7, DC=5, RST=6
+U8GLIB_PCD8544 u8g(8, 9, 12, 10, 11);  // CLK=10, DIN=8, CE=9, DC=12, RST=11
 
 const uint8_t brainy_bitmap[] PROGMEM = {
 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
